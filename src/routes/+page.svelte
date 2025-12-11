@@ -14,71 +14,59 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-parent-checking-on-sleeping-baby-in-dark-1765494975489-0.webp",
+    "/generated/image-person-using-phone-with-red-light-in-dar-1765494978301-1.webp",
+    "/generated/image-close-up-of-hands-holding-iphone-with-su-1765494980530-2.webp",
+    "/generated/image-peaceful-bedroom-at-night-with-person-re-1765494982782-3.webp",
+    "/generated/image-young-parent-looking-tired-but-content-h-1765494985034-4.webp",
+    "/generated/image-person-in-athletic-wear-checking-phone-a-1765494987477-5.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Protect your melatonin.",
+      desc: "Red light doesn't suppress melatonin production like white or blue light. Move through the night without resetting your circadian rhythm.",
+      image: "/generated/image-peaceful-bedroom-at-night-with-person-re-1765494982782-3.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Check on baby without waking up.",
+      desc: "Perfect for nighttime parenting. See what you need without the harsh white flash that fully wakes your brain—or your baby.",
+      image: "/generated/image-young-parent-looking-tired-but-content-h-1765494985034-4.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Don't disturb your partner.",
+      desc: "Late-night bathroom trip? Looking for something? Use your phone's light without flooding the room with sleep-disrupting brightness.",
+      image: "/generated/image-person-in-athletic-wear-checking-phone-a-1765494987477-5.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
-      image: "plan"
+      title: "Attach to your iPhone case.",
+      desc: "Switch To Red fits the latest 3-5 iPhone models. The discreet design integrates seamlessly with your phone's aesthetic—barely noticeable during the day.",
+      image: "attach"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
-      image: "schedule"
+      title: "Slide the red lens over your flash.",
+      desc: "Simple manual mechanism. When you need light at night, just slide the translucent red lens into position over your phone's flashlight.",
+      image: "slide"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
-      image: "results"
-    },
-    {
-      step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
-      image: "notes"
-    },
-    {
-      step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
-      image: "improve"
+      title: "Move through the night safely.",
+      desc: "Check on your baby, navigate to the bathroom, find what you need—all without the harsh white light that disrupts melatonin and wakes your brain.",
+      image: "use"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "How does red light protect my sleep?",
+    "Will this work with my iPhone model?",
+    "Does the red light provide enough visibility?",
+    "Will it overheat my phone?",
+    "How is this different from red light glasses or apps?"
   ];
 </script>
 
@@ -88,13 +76,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Move through the night<br />without waking your brain.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      A simple red-light filter for your iPhone flash. Check on baby, navigate in darkness, find what you need—all without disrupting your melatonin or waking your partner.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Get yours now
     </button>
   </section>
 
@@ -109,75 +97,39 @@
     </div>
   </div>
 
-  <!-- App Feature Section -->
+  <!-- Product Feature Section -->
   <section class="py-20 px-6 max-w-7xl mx-auto">
     <div class="bg-white rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12 shadow-sm">
-      <!-- Phone Mockup -->
+      <!-- Product Image -->
       <div class="w-full md:w-1/2 flex justify-center">
-        <div class="relative w-[280px] h-[580px] bg-black rounded-[40px] border-[8px] border-black shadow-2xl overflow-hidden">
-          <div class="absolute top-0 left-0 right-0 h-6 bg-black z-20 flex justify-center">
-            <div class="w-20 h-4 bg-black rounded-b-xl"></div>
-          </div>
-          <div class="w-full h-full bg-white pt-10 px-4 overflow-hidden flex flex-col">
-            <!-- Mock UI -->
-            <div class="flex justify-between items-center mb-6">
-              <div class="w-8 h-8 rounded-full bg-gray-200"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-100"></div>
-            </div>
-            <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
-            </div>
-            <div class="space-y-3">
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
-              </div>
-            </div>
-          </div>
+        <div class="relative w-full max-w-md">
+          <img src="/generated/image-close-up-of-hands-holding-iphone-with-su-1765494980530-2.webp" alt="iPhone with red light filter" class="w-full h-auto rounded-2xl shadow-xl" />
         </div>
       </div>
       
       <!-- Content -->
-      <div class="w-full md:w-1/2 space-y-8">
+      <div class="w-full md:w-1/2 space-y-6">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Science-backed sleep protection in your pocket.
         </h2>
-        <div class="flex items-center justify-between pt-4">
-          <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
-            {@html PlayCircle}
-            Watch video
-          </button>
-          <div class="flex gap-2">
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronLeft}
-            </button>
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronRight}
-            </button>
-          </div>
-        </div>
+        <p class="text-gray-600 leading-relaxed">
+          White and blue light suppress melatonin—even brief exposure can reset your circadian rhythm. Red light doesn't. That's why NASA, military personnel, and sailors use red light for night operations.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          Switch To Red brings this proven science to your everyday life. No apps, no settings, no complexity. Just slide and go.
+        </p>
       </div>
     </div>
   </section>
 
   <!-- Value Proposition -->
-  <section class="py-16 px-6 max-w-7xl mx-auto">
+  <section class="py-16 px-6 max-w-7xl mx-auto" id="science">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Your sleep matters more than you think.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        A single flash of white light at night can fully reset your circadian rhythm. For parents checking on babies, for anyone navigating their home after dark, this adds up to chronic sleep disruption. Switch To Red solves a problem you didn't know had such a simple solution.
       </p>
     </div>
   </section>
@@ -201,13 +153,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "Red light is the gold standard for nighttime visibility without circadian disruption. This is exactly the kind of simple, science-backed tool that makes healthy habits effortless."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-sleep-researcher-or-scientist-in-casual--1765494992366-7.webp" alt="Sleep Researcher" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Dr. Sarah Chen</div>
+        <div class="text-gray-500 text-xs">Sleep Researcher</div>
       </div>
     </div>
   </section>
@@ -216,16 +168,16 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">Zero overheating.</h3>
+        <p class="text-gray-500 text-sm font-light">Tested for 30+ minutes of continuous use. Safe, reliable, and designed for repeated daily use.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">Fits latest iPhones.</h3>
+        <p class="text-gray-500 text-sm font-light">Compatible with the last 3-5 iPhone models. Discreet design that integrates seamlessly.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Patented in France.</h3>
+        <p class="text-gray-500 text-sm font-light">Protected red flash cover mechanism. First of its kind in the sleep-tech accessory space.</p>
       </div>
     </div>
   </section>
@@ -234,77 +186,39 @@
   <section class="py-20 px-6 max-w-7xl mx-auto">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">Three simple steps to sleep-safe nighttime visibility. No apps, no settings, no complexity.</p>
     </div>
 
     <div class="space-y-6">
       {#each steps as step}
-        <div class="bg-white rounded-[40px] p-8 md:p-12 flex flex-col items-center text-center max-w-2xl mx-auto shadow-sm">
-          <div class="w-full text-left mb-8">
+        <div class="bg-white rounded-[40px] p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto shadow-sm">
+          <div class="w-full md:w-2/3">
             <span class="inline-block w-8 h-8 rounded-full border border-gray-200 text-center leading-8 text-sm font-medium mb-4">{step.step}</span>
             <h3 class="text-2xl font-medium mb-3">{step.title}</h3>
-            <p class="text-gray-500 font-light text-sm max-w-lg">{step.desc}</p>
+            <p class="text-gray-500 font-light leading-relaxed">{step.desc}</p>
           </div>
           
-          <!-- Phone Mockup for Step -->
-          <div class="relative w-[240px] h-[480px] bg-black rounded-[35px] border-[6px] border-black shadow-xl overflow-hidden mt-4">
-             <div class="absolute top-0 left-0 right-0 h-5 bg-black z-20 flex justify-center">
-                <div class="w-16 h-3 bg-black rounded-b-lg"></div>
-             </div>
-             <div class="w-full h-full bg-white pt-8 px-3 overflow-hidden">
-                <!-- Dynamic Content based on step -->
-                {#if step.image === 'plan'}
-                  <div class="space-y-3 mt-4">
-                    <div class="p-3 border rounded-xl border-black bg-gray-50">
-                      <div class="font-bold text-xs mb-1">Optimal ID</div>
-                      <div class="h-1 w-full bg-gray-200 rounded"></div>
-                    </div>
-                    <div class="p-3 border rounded-xl border-gray-200">
-                       <div class="font-bold text-xs mb-1 text-gray-400">Essential</div>
-                       <div class="h-1 w-full bg-gray-100 rounded"></div>
-                    </div>
-                  </div>
-                {:else if step.image === 'schedule'}
-                   <div class="mt-4">
-                     <div class="text-center font-bold mb-4">Appointment</div>
-                     <div class="bg-gray-100 h-32 rounded-xl mb-3 flex items-center justify-center text-xs text-gray-400">Map View</div>
-                     <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Confirm</button>
-                   </div>
-                {:else if step.image === 'results'}
-                   <div class="bg-black h-full -mx-3 -mt-8 pt-10 px-3 text-white">
-                      <div class="text-center mb-6">
-                        <div class="w-12 h-12 bg-gray-700 rounded-full mx-auto mb-2"></div>
-                        <div class="text-sm font-bold">Grace Parker</div>
-                      </div>
-                      <div class="space-y-2">
-                         <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
-                         <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
-                      </div>
-                   </div>
-                {:else if step.image === 'notes'}
-                   <div class="mt-4 space-y-3">
-                      <div class="font-bold text-sm">Health Status</div>
-                      <div class="text-[10px] text-gray-500 leading-relaxed">
-                        You usually make smart choices for your health through regular exercise...
-                      </div>
-                      <div class="bg-gray-50 p-2 rounded text-[10px] text-gray-600">
-                        Since your diet lacks enough fruits and vegetables...
-                      </div>
-                   </div>
-                {:else}
-                   <div class="mt-4 flex flex-col h-full">
-                      <div class="flex-1">
-                        <div class="bg-gray-100 p-2 rounded-lg rounded-tl-none text-[10px] mb-2 max-w-[80%]">
-                          What benefits can I get by bringing ApoB closer to the optimal range?
-                        </div>
-                        <div class="bg-blue-50 p-2 rounded-lg rounded-tr-none text-[10px] ml-auto max-w-[80%]">
-                          By lowering ApoB, you reduce the number of cholesterol-carrying particles...
-                        </div>
-                      </div>
-                      <div class="h-10 border-t mt-2"></div>
-                   </div>
-                {/if}
-             </div>
+          <!-- Visual Representation -->
+          <div class="w-full md:w-1/3 flex justify-center">
+            <div class="relative w-32 h-32 rounded-2xl bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+              {#if step.image === 'attach'}
+                <svg class="w-16 h-16 text-primary-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" />
+                  <path d="M12 18h.01" />
+                </svg>
+              {:else if step.image === 'slide'}
+                <svg class="w-16 h-16 text-primary-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              {:else}
+                <svg class="w-16 h-16 text-primary-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 16v-4" />
+                  <path d="M12 8h.01" />
+                </svg>
+              {/if}
+            </div>
           </div>
         </div>
       {/each}
@@ -314,100 +228,85 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Science Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Backed by research.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">NASA, military, and circadian scientists trust red light.</h2>
         </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
-              {/each}
+        <!-- Abstract wavelength visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-20 mt-20">
+           <svg viewBox="0 0 400 200" class="w-full h-full text-primary-500 stroke-current fill-none">
+              <path d="M 0 100 Q 50 50, 100 100 T 200 100 T 300 100 T 400 100" stroke-width="3" />
+              <path d="M 0 120 Q 50 70, 100 120 T 200 120 T 300 120 T 400 120" stroke-width="3" opacity="0.6" />
            </svg>
         </div>
       </div>
 
-      <!-- Privacy Card -->
+      <!-- Design Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Minimalist design.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Discreet, reliable, and built to last.</h2>
         </div>
-        <!-- Blurred Text Visual -->
-        <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
-           <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
-           </div>
+        <!-- Abstract product visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-10 mt-20">
+           <div class="w-48 h-80 border-4 border-gray-600 rounded-[40px]"></div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Pricing Section -->
-  <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="buy">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Better sleep starts tonight.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">One simple accessory. Lifetime of better nighttime habits. No subscription, no recurring fees—just a smarter way to use your phone at night.</p>
     </div>
 
-    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
-      <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+    <div class="max-w-md mx-auto">
+      <!-- Single Product -->
+      <div class="bg-white rounded-[32px] p-8 flex flex-col shadow-sm">
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <svg class="w-6 h-6 text-primary-700" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Switch To Red</h3>
+        <p class="text-sm text-gray-500 mb-6">Red-light filter for iPhone flash</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-4xl font-medium">€24</span>
+          <div class="text-xs text-gray-500 mt-2">Free shipping in EU • 30-day returns</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Patented red-light filtering technology
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Fits latest 3-5 iPhone models
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Tested for zero overheating (30+ min continuous use)
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Discreet design that integrates with your phone
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Simple slide mechanism—no apps or settings
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
-      </div>
-
-      <!-- Core Plan -->
-      <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
-        <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
-        </div>
-        <ul class="space-y-4 mb-8 flex-1">
-          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
-          </li>
-          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
-          </li>
-          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
-            <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
-          </li>
-        </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3.5 rounded-sm font-medium hover:bg-black transition-colors text-base">
+          Pre-order now
+        </button>
+        <p class="text-xs text-center text-gray-400 mt-4">Launching Q2 2025 • Limited first batch</p>
       </div>
     </div>
   </section>
@@ -435,34 +334,36 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+          <div class="w-6 h-6 text-[#1A1A1A]">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <span class="font-semibold text-lg">Switch To Red</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
-          <a href="#" class="hover:text-black">Blog</a>
+          <a href="#science" class="hover:text-black">The Science</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
+          <a href="#" class="hover:text-black">Contact</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
         </nav>
 
         <div class="flex gap-4 text-gray-800">
-          <a href="#" class="hover:text-black">{@html XIcon}</a>
-          <a href="#" class="hover:text-black">{@html Instagram}</a>
-          <a href="#" class="hover:text-black">{@html LinkedIn}</a>
+          <a href="#" class="hover:text-black" aria-label="X (Twitter)">{@html XIcon}</a>
+          <a href="#" class="hover:text-black" aria-label="Instagram">{@html Instagram}</a>
+          <a href="#" class="hover:text-black" aria-label="LinkedIn">{@html LinkedIn}</a>
         </div>
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">Switch To Red is a consumer product designed to filter light wavelengths. This product is not a medical device and does not diagnose, treat, cure, or prevent any disease or medical condition. All information provided about circadian rhythm, melatonin, and sleep is for educational purposes only and should not be considered medical advice. Consult with a healthcare provider for personalized medical guidance.</p>
+        <p class="mb-2">Patent pending in France. International patent applications in progress. Product specifications and compatibility may vary. Compatible with select iPhone models—please verify compatibility before purchase.</p>
+        <p class="mt-2">© 2025 Switch To Red. All rights reserved.</p>
       </div>
     </div>
   </footer>
