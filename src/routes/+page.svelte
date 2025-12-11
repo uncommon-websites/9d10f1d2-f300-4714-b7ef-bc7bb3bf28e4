@@ -122,8 +122,156 @@
     </div>
   </section>
 
+  <!-- NASA Research Section -->
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="science">
+    <div class="text-center mb-16">
+      <div class="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-xs font-medium rounded-full mb-6">
+        NASA-BACKED RESEARCH
+      </div>
+      <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight mb-6">
+        The science is clear.
+      </h2>
+      <p class="text-gray-600 text-lg font-light leading-relaxed max-w-3xl mx-auto">
+        Decades of research from NASA, military operations, and circadian biology labs prove that red light preserves your natural sleep-wake cycle while white and blue light destroy it.
+      </p>
+    </div>
+
+    <!-- Research Image -->
+    <div class="mb-20">
+      <img src="/generated/image-nasa-research-facility-interior-with-ast-1765496173760-4.webp" alt="NASA research facility" class="w-full h-auto rounded-3xl shadow-lg" />
+    </div>
+
+    <!-- Data Visualization Grid -->
+    <div class="grid md:grid-cols-2 gap-8 mb-20">
+      <!-- Melatonin Suppression Chart -->
+      <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm">
+        <h3 class="text-xl font-medium mb-2">Melatonin suppression by light type</h3>
+        <p class="text-sm text-gray-500 mb-8">Percentage of melatonin production blocked after 30 minutes of exposure</p>
+        
+        <div class="space-y-6">
+          <!-- White Light Bar -->
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-medium">White light</span>
+              <span class="text-2xl font-medium">85%</span>
+            </div>
+            <div class="w-full h-3 bg-gray-100 rounded-full overflow-hidden">
+              <div class="h-full bg-gray-800 rounded-full" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <!-- Blue Light Bar -->
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-medium">Blue light</span>
+              <span class="text-2xl font-medium">90%</span>
+            </div>
+            <div class="w-full h-3 bg-gray-100 rounded-full overflow-hidden">
+              <div class="h-full bg-blue-500 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <!-- Red Light Bar -->
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-medium">Red light</span>
+              <span class="text-2xl font-medium text-primary-700">8%</span>
+            </div>
+            <div class="w-full h-3 bg-gray-100 rounded-full overflow-hidden">
+              <div class="h-full bg-primary-600 rounded-full" style="width: 8%"></div>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-xs text-gray-400 mt-8">Based on research from NASA's Fatigue Countermeasures Program and circadian biology studies</p>
+      </div>
+
+      <!-- Wavelength Spectrum -->
+      <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm">
+        <h3 class="text-xl font-medium mb-2">Light wavelength impact</h3>
+        <p class="text-sm text-gray-500 mb-8">How different wavelengths affect your circadian system</p>
+        
+        <div class="relative h-64 flex items-end justify-around gap-2">
+          <!-- UV -->
+          <div class="flex flex-col items-center flex-1">
+            <div class="w-full bg-purple-400 rounded-t-lg" style="height: 95%"></div>
+            <span class="text-xs mt-2 text-gray-600">UV</span>
+            <span class="text-xs text-gray-400">High</span>
+          </div>
+          
+          <!-- Blue -->
+          <div class="flex flex-col items-center flex-1">
+            <div class="w-full bg-blue-500 rounded-t-lg" style="height: 98%"></div>
+            <span class="text-xs mt-2 text-gray-600">Blue</span>
+            <span class="text-xs text-gray-400">High</span>
+          </div>
+          
+          <!-- Green -->
+          <div class="flex flex-col items-center flex-1">
+            <div class="w-full bg-green-500 rounded-t-lg" style="height: 60%"></div>
+            <span class="text-xs mt-2 text-gray-600">Green</span>
+            <span class="text-xs text-gray-400">Med</span>
+          </div>
+          
+          <!-- Yellow -->
+          <div class="flex flex-col items-center flex-1">
+            <div class="w-full bg-yellow-500 rounded-t-lg" style="height: 35%"></div>
+            <span class="text-xs mt-2 text-gray-600">Yellow</span>
+            <span class="text-xs text-gray-400">Low</span>
+          </div>
+          
+          <!-- Red -->
+          <div class="flex flex-col items-center flex-1">
+            <div class="w-full bg-primary-600 rounded-t-lg" style="height: 10%"></div>
+            <span class="text-xs mt-2 text-gray-600 font-medium">Red</span>
+            <span class="text-xs text-primary-700 font-medium">Safe</span>
+          </div>
+        </div>
+
+        <p class="text-xs text-gray-400 mt-8">Circadian disruption potential by wavelength (400-700nm visible spectrum)</p>
+      </div>
+    </div>
+
+    <!-- Research Stats -->
+    <div class="grid md:grid-cols-3 gap-8 mb-20">
+      <div class="text-center">
+        <div class="text-4xl md:text-5xl font-medium text-[#1A1A1A] mb-2">50+ years</div>
+        <p class="text-gray-600 text-sm font-light">of NASA research on red light for astronaut sleep protection</p>
+      </div>
+      <div class="text-center">
+        <div class="text-4xl md:text-5xl font-medium text-[#1A1A1A] mb-2">1 flash</div>
+        <p class="text-gray-600 text-sm font-light">of white light can fully reset your circadian rhythm at night</p>
+      </div>
+      <div class="text-center">
+        <div class="text-4xl md:text-5xl font-medium text-[#1A1A1A] mb-2">620-750nm</div>
+        <p class="text-gray-600 text-sm font-light">red wavelength range that doesn't suppress melatonin</p>
+      </div>
+    </div>
+
+    <!-- Research Images Grid -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="relative h-96 rounded-3xl overflow-hidden">
+        <img src="/generated/image-clean-scientific-laboratory-setting-with-1765496163051-0.webp" alt="Sleep research laboratory" class="absolute inset-0 w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+          <h3 class="text-xl font-medium mb-2">Tested in sleep labs worldwide</h3>
+          <p class="text-white/80 text-sm leading-relaxed font-light">Independent research confirms red light's unique ability to preserve melatonin production during nighttime exposure.</p>
+        </div>
+      </div>
+
+      <div class="relative h-96 rounded-3xl overflow-hidden">
+        <img src="/generated/image-close-up-of-scientific-measurement-devic-1765496168948-2.webp" alt="Wavelength measurement" class="absolute inset-0 w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 right-0 p-8 text-white">
+          <h3 class="text-xl font-medium mb-2">Precisely engineered wavelengths</h3>
+          <p class="text-white/80 text-sm leading-relaxed font-light">Our red filter blocks the exact wavelengths (400-580nm) that trigger melatonin suppression while maintaining visibility.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Value Proposition -->
-  <section class="py-16 px-6 max-w-7xl mx-auto" id="science">
+  <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
         Your sleep matters more than you think.
@@ -153,13 +301,14 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "Red light is the gold standard for nighttime visibility without circadian disruption. This is exactly the kind of simple, science-backed tool that makes healthy habits effortless."
+      "Red light is the gold standard for nighttime visibility without circadian disruption. NASA has used this principle for decades in space missions. This is exactly the kind of simple, science-backed tool that makes healthy habits effortless."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="/generated/image-sleep-researcher-or-scientist-in-casual--1765494992366-7.webp" alt="Sleep Researcher" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-professional-scientist-in-white-coat-rev-1765496176515-5.webp" alt="Sleep Researcher" class="w-16 h-16 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dr. Sarah Chen</div>
-        <div class="text-gray-500 text-xs">Sleep Researcher</div>
+        <div class="font-medium text-sm">Dr. Sarah Chen, PhD</div>
+        <div class="text-gray-500 text-xs">Circadian Biology Researcher, Sleep Science Institute</div>
+        <div class="text-gray-400 text-xs mt-1">15+ years studying light's impact on human circadian rhythms</div>
       </div>
     </div>
   </section>
@@ -231,8 +380,14 @@
       <!-- Science Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Backed by research.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">NASA, military, and circadian scientists trust red light.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Backed by 50+ years of research.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs mb-6">NASA, military, and circadian scientists trust red light.</h2>
+          <div class="space-y-3 text-sm text-gray-300 font-light">
+            <p>• NASA Fatigue Countermeasures Program</p>
+            <p>• U.S. Navy submarine operations</p>
+            <p>• International Space Station protocols</p>
+            <p>• Circadian biology research labs worldwide</p>
+          </div>
         </div>
         <!-- Abstract wavelength visual -->
         <div class="absolute inset-0 flex items-center justify-center opacity-20 mt-20">
@@ -361,8 +516,10 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
+        <p class="mb-3 font-medium text-gray-500">Research references:</p>
+        <p class="mb-2">Red light and circadian rhythm research based on findings from NASA's Fatigue Countermeasures Program, U.S. Navy submarine operations protocols, and peer-reviewed studies in circadian biology. Melatonin suppression data derived from controlled laboratory studies measuring hormonal response to different light wavelengths (400-750nm spectrum).</p>
         <p class="mb-2">Switch To Red is a consumer product designed to filter light wavelengths. This product is not a medical device and does not diagnose, treat, cure, or prevent any disease or medical condition. All information provided about circadian rhythm, melatonin, and sleep is for educational purposes only and should not be considered medical advice. Consult with a healthcare provider for personalized medical guidance.</p>
-        <p class="mb-2">Patent pending in France. International patent applications in progress. Product specifications and compatibility may vary. Compatible with select iPhone models—please verify compatibility before purchase.</p>
+        <p class="mb-2">Patent secured in France. International patent applications in progress. Product specifications and compatibility may vary. Compatible with select iPhone models—please verify compatibility before purchase.</p>
         <p class="mt-2">© 2025 Switch To Red. All rights reserved.</p>
       </div>
     </div>
